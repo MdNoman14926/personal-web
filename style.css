@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: dimgray;
+}
+.btn{
+    text-decoration: none;
+    background: #ec4c7a;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 2%;
+}
+.half-width h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.half-width h2{
+    font-size: 40px;
+    color: #ec4c7a;
+    font-weight: 700;
+}
+.half-width img{
+    width: 100%;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 2%;
+}
+.header{
+   background: url(img/header-bg.png);
+   background-size: cover;
+   height: 600px;
+   background-repeat: no-repeat;
+}
+section{
+    height: 600px;
+}
+.biography{
+    background: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work h2{
+    text-align: center;
+    font-size: 40px;
+    color: #202428;
+}
+.work .half-width{
+    width: 25%;
+    margin-top: 35px;
+}
+.client{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.box{
+    background:#ec4c7a;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.box p,h1{
+    color: #fff;
+}
+footer p{
+    text-align: center;
+}
